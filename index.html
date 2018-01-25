@@ -1,14 +1,121 @@
+<!DOCTYPE html>
 <html>
-## the title
-  <head>
-  @import url("stylesheetB.css");
-  <h1>My story begin</h1>
-  h1{
-  color:#cccccc;
-  }
-  </head>
-  
-  <body>
-  
-  </body>
+	<head>
+		<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		.nav,h3{
+		margin: 0 10px 0 0;
+		}
+		h1 {
+		color: #C80000;
+		border-bottom: 4px solid #cccccc;
+		float: top
+		
+		}
+		h2{ 
+		border-left: 2px solid black;
+		margin: 100px auto 0 auto;
+		text-align: center;
+		}
+		.nav{
+		display: inline;
+		border-left: 0;
+		margin: 0 0 0 10px;
+		}
+		h3{
+		display: inline;
+		}
+		.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #111;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+		}
+
+		.sidenav a {
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #818181;
+			display: block;
+			transition: 0.3s;
+		}
+
+		.sidenav a:hover {
+			color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+		.bg{
+			background: src=" C:\Users\jacob_000\Desktop\About me Accelerate\18489891_10203354563740723_7422676689686944252_o.jpg";
+			height: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="#">About</a>	
+		</div>
+		<div>
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+				<h1>The journey begin </h1>
+				<h2 class="nav">Hello! This is Jacob!</h2>
+				<h3>Welcome to my website! Let me take you guys to my journey  <i class="em em-sunglasses"></i></h3>
+		<div class="bg"></div>
+
+				<h2>The Entry<i class="em em-door"></i></h2>
+				<p>
+				 1997, In a hospital call Hong Kong French hospital, a baby was born in the middle of the night, thats me.<br /> 
+				 Yea that pretty much it! Thank you for visiting! have a wonderful day! <strong style="font-size: 125%;">Just kidding!!!</strong> To be honest my child 
+				 have nothing really interesting, all i can remember is i moved a lot during my childhood, the furtherest 
+				 one is Australia, i went there to study Year 9 to Year 12. Also i went to study a Diploma of Engineering, but at the half way though, i </b>
+				 find sit-and-learn it's not really my style to learn something, i am a more practical type of person, that's is one of the reason why i really like programming</b>
+				 Programming is also practical, it also required you to do while learning, thats something i like to do, the other reason is i love technology</b>
+				 things, like ios system, android, robot, or at one point, even something big like particle accelerator. i always wonder, if the CGI of all the awesome movie can be that realistic, why not we just create something like that
+				 like that, and the fact is, more and more people in the world are able to achieve that, which mean we have the technology to bring fiction into real</br>
+				 the real world. And that's something i want to do.
+				</p>
+
+				<h2>life in Australia<i class="em em-flag-hk"></i><i class="em em-airplane_departure"></i><i class="em em-flag-au"></i></h2>
+				<p>
+				When i say to people about Australia, most of them just think of Kangaroo or Sydney opera house, but actually know very little</br>
+				about the life and life style there.</br>
+			
+				</p>
+			
+		</div>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+			}
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+			}
+</script>
+	
+	 </body>
 </html>
